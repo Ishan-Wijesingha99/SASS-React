@@ -1,5 +1,16 @@
 $black-color: rgb(24, 24, 24);
 $white-color: rgb(232, 232, 232);
+$red-color: rgb(203, 87, 87);
 
 $title-font: Arial, Helvetica, sans-serif;
 $body-fornt: 'Times New Roman', Times, serif;
+
+@mixin buttonStyle($color, $fontSize) {
+  width: 200px;
+  height: 40px;
+  background-color: $color;
+  border: none;
+  border-radius: 8px;
+  color: $white-color;
+  font-size: $fontSize;
+}
